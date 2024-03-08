@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to right, #87F5FB, #B18FCF);
+}
+
+button {
+    background: transparent;
+    border: none;
+}
+
+.userInputImg:hover {
+    width: 280px;
+    transition-duration: 0.50s;
+}
+
+.scoreBoardModal {
+    visibility: hidden;
+}
+
+.game {
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 90vh;
+}
+
+.gameDiv, .scoreBoard {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.scoreBoard {
+    border: 1.5px solid black;
+    border-radius: 15px;
+}
+
+.resetbtn {
+    position: absolute;
+    right: 0;
+    margin: 10px 10px 0 0 !important;
+}
+
+#userIMG, #comIMG {
+    width: 100px;
+    height: 100px;
+}
+
+.modal-body {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.modal-content {
+    width: 110% !important;
+}
+
+.comCh, .userCh {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.modal-footer {
+    display: flex;
+    height: fit-content;
+    justify-content: space-around !important;
+}
